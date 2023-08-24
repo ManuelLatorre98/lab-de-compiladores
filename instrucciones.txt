@@ -1,0 +1,3 @@
+flex html2txt.l 
+gcc -o html2txt lex.yy.c -lfl 
+./html2txt < pagina.html > output.txt
